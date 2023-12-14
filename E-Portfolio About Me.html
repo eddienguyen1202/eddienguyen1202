@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://kit.fontawesome.com/269343b5c5.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dancing Script">
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+    <title>E-Portfolio | Portfolio</title>
+</head>
+<style>
+    body{
+        margin: 0;
+        background-image: url(Images/education_bg_1.webp);
+    }
+    a{
+        text-decoration: none;
+    }
+    /*Navigation Bar*/
+    .navi_bar{
+        width: 100%;
+        height: 50px;
+        overflow: hidden;
+        top: 0; /*Put the bar on the top of the website*/
+        background-image: url(Images/navibar_bg_3.webp);
+        position: fixed; /*Fixed the navigation bar*/
+        z-index: 1000;
+    }
+    .navi_bar p{
+        color: white;
+        font-size: 17px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-align: center;
+        float: left;
+        padding-left: 20px;
+    }
+    .navi_bar a{
+        color: white;
+        text-decoration: none; /*Remove the underline*/
+        font-size: 17px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-align: center;
+        padding: 16px 16px;
+        float: right; /*Make the box to the left*/
+        display: block;
+    }
+    .navi_bar a:hover{
+        background-color: white;
+        color: #0e4a3e;
+    }
+    /*Container*/
+    .container{
+        padding-top: 1em;
+        margin-left: 15%;
+        margin-right: 15%;
+        background-color: white;
+        width: auto;
+        height: 170em;
+    }
+    .container h4{
+        margin: 0;
+        padding-top: 8px;
+        padding-bottom: 0.3em;
+        color: black;
+        font-family: Dancing Script;
+        font-size: 32px;
+        text-align: center;
+    }
+    .container img{
+        width: 23em;
+        margin-top: 2em;
+        margin-left: 1em;
+        background-color: white;
+        border: 10px solid transparent;
+        box-shadow: 0 0 10px 7px rgba(0, 0, 0, 0.3);
+    }
+    /*Showcase*/
+    .showcase{
+        margin-top: 3.125em;
+        background-image: url(Images/content_1_bg_4.webp);
+        width: 100%;
+        height: fit-content;
+    }
+    .showcase h1{
+        margin: 0;
+        padding-top: 20px;
+        color: white;
+        font-family: Dancing Script;
+        font-size: 62px;
+        text-align: center;
+    }   
+    .column {
+        max-width: 25%;
+        padding: 0 4px;
+    }
+    .column img {
+        margin-top: 8px;
+        width: 100%;
+    }
+    
+    .carousel-container {
+        margin-top: -1.5em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 400px;
+    }
+    .carousel {
+        display: flex;
+        position: relative;
+    }
+    .card {
+        flex: 0 0 200px; 
+        margin: 0 -60px;
+        transition: transform 0.3s ease, opacity 0.3s ease;
+    }
+    .card img {
+        margin-left: 5.5em;
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+    }
+    .card.active {
+        transform: scale(1.2); 
+        opacity: 1; 
+        z-index: 1;
+    }
+    .card:not(.active) {
+        opacity: 0.7; 
+    }
+</style>
+<body>
+    <!--Navigation Bar-->
+    <div class="navi_bar">
+        <p><strong>E-Portfolio | Nguyen Tuan Minh</strong></p>
+        <strong>
+        <a href="E-Portfolio Contact.html">Contacts</a>
+        <a href="E-Portfolio Project Showcase.html">Project Showcase</a>
+        <a href="E-Portfolio Portfolio Page.html">Portfolio</a>
+        <a href="E-Portfolio About Me.html" style="text-decoration: underline;">About Me</a>
+        <a href="E-Portfolio Homepage.html">Home</a>
+        </strong>
+    </div>
+    <!--Portfolio-->
+    <div class="showcase">
+        <h1>About Me</h1><br>
+    </div>
+    <div class="container">
+        <!--introduce-->
+        <img src="Images/Myself3.jpg" alt="A picture of myself" style="float: left; margin-left: 3em;">
+        <h4 style="font-family: audiowide; text-align: center; padding-top: 0.7em; font-size: 42px;">Nguyen Tuan Minh</h4>
+        <p style="font-family: monospace; text-align: justify; margin-left: 33.5em; margin-right: 2em; font-size: 14px;">
+        Hello everyone! I'm thrilled to introduce myself on this blog and share a glimpse of who I am with all of you. I'm a 16-year-old IT student from the picturesque country of Vietnam. Technology has always fascinated me, and being an IT student allows me to explore its limitless possibilities.<br><br>
+
+        Apart from my academic pursuits, I have a deep passion for reading, listening to music, and gaming. There's something magical about getting lost in the pages of a captivating book that takes me on incredible journeys of imagination. Music, on the other hand, is like therapy for my soul; it transports me to different emotions and realms. Whether it's relaxing with soothing melodies or getting pumped up with energetic beats, music is a constant companion in my life. And of course, gaming provides me with a fantastic escape and a chance to challenge myself in virtual worlds. It also brings joy and laughter when I play with friends, creating unforgettable memories.<br><br>
+                
+        As an individual, I am known for my approachable and empathetic nature. I love connecting with people from all walks of life, and I believe in the power of building meaningful relationships. Engaging in conversations with diverse perspectives enriches my understanding of the world and helps me become a better version of myself.
+        </p>
+        <!--Sport-->
+        <h4 style="font-family: audiowide; text-align: center; padding-top: 1em; font-size: 42px;">Favorite Sport</h4>
+        <img src="Images/f1track.jpeg" style="width:15%; height:auto; margin-left: 2.5em;">
+        <img src="Images/football.jpeg" style="width:25% height=auto; float:left; margin-left: 3em;">
+        <img src="Images/rb.jpeg" style="width:23.85%; float: right; margin-right: 1.5em; margin-right: 3em;">
+        <img src="Images/Barca.jpeg" style="width:15%; height: auto;  margin-left: 2.5em;">
+        <p style="font-family: monospace; margin-left: 34em; margin-right: 4em; text-align: center; font-size: 14px; line-height: 1.5; padding-top: 1em;">My favorite sports are <strong>Football</strong> and <strong>Formula 1</strong>, and I passionately support Barcelona FC in football and Red Bull in Formula 1. The thrill of watching both sports and the dedication of these teams make them truly special to me.</p>
+
+        <!--Music-->
+        <h4 style="font-family: audiowide; text-align: center; padding-top: 1em; font-size: 42px;">Musics & Movies</h4>
+        <iframe style="border-radius:12px; margin-left: 3em; float: left; padding-top: 1em;" src="https://open.spotify.com/embed/track/4R2kfaDFhslZEMJqAFNpdd?utm_source=generator" width="25%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        <iframe style="border-radius:12px; float: left; padding-left: 1em; padding-top: 1em;" src="https://open.spotify.com/embed/track/6pWgRkpqVfxnj3WuIcJ7WP?utm_source=generator" width="25%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        
+        <p style="font-family: monospace; margin-left: 43em; margin-right: 4em; text-align: justify; font-size: 14px; line-height: 1.5;">When it comes to music, my taste is an exquisite blend of pop and epic soundtracks, reflecting my passion for diverse and captivating melodies. I find myself drawn to the enchanting world of pop music, and two artists who never fail to mesmerize me are Taylor Swift and Harry Styles. With Taylor's heartfelt storytelling and Harry's soulful artistry, their songs become anthems that resonate deep within my heart. Beyond the realm of pop, I am also captivated by the grandeur of epic soundtracks, where orchestral arrangements evoke powerful emotions and transport me to fantastical realms. This eclectic mix of genres brings a symphony of joy to my ears, making my musical journey an unforgettable one.</p>
+        <iframe style="border-radius:12px; margin-left: 3em; float: left;" src="https://open.spotify.com/embed/track/5LYMamLv12UPbemOaTPyeV?utm_source=generator&theme=0" width="45%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        <iframe style="border-radius:12px; padding-left: 2em;" src="https://open.spotify.com/embed/track/2Y0iGXY6m6immVb2ktbseM?utm_source=generator" width="43%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        <!--Movie-->
+        <p style="font-family: monospace; margin-left: 3em; margin-right: 3em; text-align: center; font-size: 16px; line-height: 1.5;">My taste in movies knows no bounds, as I find myself captivated by a wide array of genres, from heart-pounding horror and adrenaline-pumping action to thought-provoking and meaningful films. However, there are two movies that have left an indelible mark on my cinematic journey. "Midnight in Paris" weaves a magical tale of nostalgia and self-discovery, transporting its audience through time to experience the allure of the past. On the other hand, "Interstellar" takes us on an intergalactic adventure, exploring the depths of space and time while grappling with profound themes of love, sacrifice, and the human spirit. These two films hold a special place in my heart, exemplifying the beauty and power of storytelling in the world of cinema.<br><br><em>Use arrows to see a favorite movies list below!</em></p>
+        <div class="carousel-container">
+            <div class="carousel" id="carousel">
+              <div class="card active">
+                <img src="Images/midnightinparis.png" alt="Film Poster 1">
+              </div>
+              <div class="card">
+                <img src="Images/interstellar.jpeg" alt="Film Poster 2" >
+              </div>
+              <div class="card">
+                <img src="Images/harrypotter.jpeg" alt="Film Poster 3" style="height: 300px">
+              </div>
+              <div class="card">
+                <img src="Images/titanic.jpeg" alt="Film Poster 3">
+              </div>
+              <div class="card">
+                <img src="Images/shining.jpeg" alt="Film Poster 3" style="height: 299.7px">
+              </div>
+              <div class="card">
+                <img src="Images/tsr.png" alt="Film Poster 3" style="height: 299.7px">
+              </div>
+              <div class="card">
+                <img src="Images/coraline.jpeg" alt="Film Poster 3" style="height: 299.7px">
+              </div>
+              <div class="card">
+                <img src="Images/lalaland.jpg" alt="Film Poster 3" style="height: 299.7px">
+              </div>
+              <div class="card">
+                <img src="Images/infinitywar.png" alt="Film Poster 3" style="height: 299.7px">
+              </div>
+              <div class="card">
+                <img src="Images/endgame.jpeg" alt="Film Poster 3" style="height: 299.7px">
+              </div>
+            </div>
+        </div>
+        <br>
+    </div> 
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+    const carousel = document.getElementById('carousel');
+    const cards = carousel.querySelectorAll('.card');
+    let activeCardIndex = -1;
+
+  function updateCarousel() {
+    cards.forEach((card, index) => {
+      if (index === activeCardIndex) {
+        card.classList.add('active');
+      } else {
+        card.classList.remove('active');
+      }
+    });
+  }
+
+  function showNextCard() {
+    activeCardIndex = (activeCardIndex + 1) % cards.length;
+    updateCarousel();
+  }
+
+  function showPreviousCard() {
+    activeCardIndex = (activeCardIndex - 1 + cards.length) % cards.length;
+    updateCarousel();
+  }
+
+  document.addEventListener('keydown', function(event) {
+    if (event.key === 'ArrowRight') {
+      showNextCard();
+    } else if (event.key === 'ArrowLeft') {
+      showPreviousCard();
+    }
+  });
+
+  updateCarousel();
+});
+
+</script>    
+</body>
+</html

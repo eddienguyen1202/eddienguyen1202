@@ -1,0 +1,70 @@
+h1{
+    font-family: 'Audiowide', sans-serif;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+h2{
+    font-family: 'Audiowide', sans-serif;
+    text-align: center;
+    font-size: 30px;
+}
+p{
+    text-align: center;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -15px;
+    height: 50px;
+}
+body{
+    background-image: url(fullofpizza.jpeg);
+}
+.menu{
+    width: 60%;
+    max-width: 500px;
+    background-color: #1c1c1c;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.pizza p{
+    display: inline-block;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    font-size: 18px;
+}
+.flavor{
+    text-align: left;
+    width: 75%;
+}
+.price{
+    text-align: right;
+    width: 25%;
+}
+.established{
+    font-style: italic;
+}
+/*Footer*/
+footer{
+    font-size: 14px;
+}
+footer p{
+    margin-bottom: 1px;
+}
+a{
+    color: white;
+}
+a:hover{
+    color: gainsboro;
+}
+a:active{
+    color: white;
+}

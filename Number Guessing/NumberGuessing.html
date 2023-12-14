@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Number Guessing Game</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+        <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <br><br><h1 style="text-align: center; width: 19.5em;">NUMBER GUESSING</h1>
+    <p style="text-align: center; font-family: monospace;">You have 10 turns to guess the correct number</p>
+    <div id="wrapper">
+        <form class="form">
+            <label2 for="guessField" id="guess">Guess a number</label>
+            <input type="text" id="guessField" class="guessField" style="font-family: Audiowide;">
+            <input type="submit" id="subt" value="Submit guess" class="guessSubmit">
+        </form>
+        <div class="resultParas">
+            <p style="font-family: monospace;">Previous Guesses: <span class="guesses"> </span></p>
+            <p style="font-family: monospace;">Guesses Remaining: <span class="lastResult">10</span></p>
+            <p class="lowOrHi"></p>
+        </div>
+    </div>
+<script src="app.js"></script>
+</body>
+</html>

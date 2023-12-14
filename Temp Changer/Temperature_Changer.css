@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    background-color: lightblue;
+}
+.header{
+    width: 100%;
+    margin: auto;
+    height: 8em;
+    border-bottom: 10px solid wheat;
+    background-color: antiquewhite;
+    color: black;
+}
+.header h1{
+    padding-top: 0.3em;
+    text-align: center;
+    line-height: 1.5;
+    font-family: Dancing Script;
+    font-size: 42px;
+}
+.header p{
+    text-align: center;
+    padding-top: 0.5em;
+    font-size: 22px;
+    font-family: Dancing Script;
+}
+.container{
+    width: 50%;
+    margin: auto;
+    height: 50em;
+    background-color: whitesmoke;
+    border: 10px solid wheat;
+    border-radius: 5px;
+}
+.content{
+    padding-top: 1em;
+    width: fit-content  ;
+    margin: auto;
+}
+input{
+    width: 15em;
+    height: 5em;
+    margin-bottom: 0.5em;
+    border: 2px solid black;
+    color: black;
+    text-align: center;
+    font-size: 30px;
+}
+input::placeholder{
+    color: black;
+    padding-left: 1em;
+    text-align: left;
+    font-size: 30px;
+    font-family: Dancing Script;
+}
+label {
+    display: block;
+    text-align: center;
+    font-size: 18px;
+}
