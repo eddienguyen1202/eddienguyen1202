@@ -1,0 +1,37 @@
+.heading{
+    text-align: center;
+}
+.marker{
+    margin: 15px auto;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width: 300px;
+    height: 30px;
+
+}
+.one{
+    background: linear-gradient(gray, brown, gray);
+    box-shadow: 5px 5px 5px 0;
+}
+.two{
+    background: linear-gradient(gray, darkblue, gray);
+    box-shadow: 5px 5px 5px 0;
+}
+.three{
+    background: linear-gradient(gray, darkgreen, gray);
+    box-shadow: 5px 5px 5px 0;
+}
+.cap{
+    width: 30px;
+    height: 30px;
+}
+.sleeve{
+    width: 230px;
+    height: 30px;
+    background-color: rgba(255, 255, 255,0.4);
+    border-left: 10px double black;
+    border-right: 3px solid black;
+}
+.cap, .sleeve{
+    display: inline-block;
+}
