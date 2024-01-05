@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    font-size: 16px;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-image: url(fullofpizza.jpeg);
+    margin: 0;
+}
+.label{
+    margin: 10px auto;
+    width: 330px;
+    border: 2px solid black;
+    padding: 0 8px;
+}
+h1{
+    text-align: left;
+    margin: 0px;
+    letter-spacing: 0.15px;
+    font-weight: 1000;
+}
+p{
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.pizza-name{
+    text-align: justify;
+    color: #073d62;
+}
+.container{
+    width: fit-content;
+    margin: auto;
+}
+.main{
+    padding: 25px 0;
+    margin: 0 auto;
+    max-width: 800px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: white;
+    height: auto;
+}
+
+/*Calories Info*/
+.calories-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+h2{
+    margin: 0;
+    font-size: 0.95rem;
+}
+.left-container p{
+    font-size: 2.3em;
+    font-weight: 800;
+    margin: 0;
+}
+.calories-info span{
+    font-size: 4em;
+    font-weight: 900;
+    margin: -10px 0;
+}
+
+/*Text Style*/
+.bold{
+    font-weight: 900;
+}
+.right{
+    justify-content: flex-end;
+}
+.bigger{
+    font-size: 17px;
+}
+.indent{
+    margin-left: 1em;
+}
+.double-indent{
+    margin-left: 2em;
+}
+.note{
+    font-size: 0.7rem;
+    margin: 5px 0;
+}
+/*Divider*/
+.divider{
+    border-bottom: 1px solid black;
+}
+.large, .medium{
+    background-color: black;
+    border: none;
+}
+.large{
+    height: 10px;
+    margin: 5px 0;
+}
+.medium{
+    height: 5px;
+    margin: 5px 0;
+}
